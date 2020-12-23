@@ -5,32 +5,23 @@ import csv
 import threading
 import time
 import datetime
-import calendar
 import os
 import sys
-sys.path.append('../NYU Files/Classwork/2020.09.01 - CS Class Review/CS122/1_FINAL PROJECT GITHUB/CSMC122_Basketball_Analytics')
-from crossing_over import get_bet_b, get_winnings 
+#sys.path.append('../NYU Files/Classwork/2020.09.01 - CS Class Review/CS122/1_FINAL PROJECT GITHUB/CSMC122_Basketball_Analytics')
 from bs4 import BeautifulSoup
-import text
 
-import sqlite3
-sys.path.append('/home/student/CSMC122_Basketball_Analytics/crossover/analytics')
+#sys.path.append('/home/student/CSMC122_Basketball_Analytics/crossover/analytics')
 url_pre = 'https://www.bovada.lv/services/sports/event/v2/events/A/description/basketball/nba?marketFilterId=def&preMatchOnly=true&lang=en'
 url_live = 'https://www.bovada.lv/services/sports/event/v2/events/A/description/basketball/nba?marketFilterId=def&liveOnly=true&lang=en'
 
 url_playoffs = 'https://www.bovada.lv/services/sports/event/v2/events/A/description/basketball/nba-playoffs?marketFilterId=def&liveOnly=true&lang=en'
 
-initial_team_information = {}
-
 today = datetime.date.today()
 today_string = today.strftime("%b-%d-%Y")
-# os.mkdir(path="2020_2021 Season") ## Remember you have to make this directory to properly write CSVs first
 game_path = "2020_2021 Season/" + today_string
 
-os.mkdir(path=game_path) ## MAKING THE FOLDER PATH FOR TODAY
-
-#### MAKE SURE TO CHANGE CSV WRITER TO PROPER FOLDER SUBPATH 
-### also note that i changed the csv writer file function....
+if not os.path.isdir(game_path):
+    os.mkdir(path=game_path)
 
 # %%
 
@@ -169,7 +160,7 @@ def run(url):
                 return "Done scraping"
             
             get_stats(data[0])
-            time.sleep(10)
+            time.sleep(15)
         
         ## If Bovada blocks us or there's another error with Bovada's site,
         ## sleep for a minute and run again
@@ -185,7 +176,3 @@ def run(url):
 run(url_pre) ## CHANGE TO URL LIVE
 
 # %%
-# %%
-
-pregame_data = requests.get(url_pre).json()
-get_stats(pregame_data[0])
