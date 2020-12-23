@@ -173,6 +173,6 @@ def run(url):
             time.sleep(60)
             run(url)
 #%%
-run(url_live)
-
-# %%
+## Geting pregame data for a later merge when ran live
+pregame = requests.get(url_pre).json()
+get_stats(pregame[0])
