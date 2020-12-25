@@ -7,6 +7,7 @@ import time
 import datetime
 import os
 import sys
+from pytz import timezone
 #sys.path.append('../NYU Files/Classwork/2020.09.01 - CS Class Review/CS122/1_FINAL PROJECT GITHUB/CSMC122_Basketball_Analytics')
 from bs4 import BeautifulSoup
 
@@ -16,8 +17,13 @@ url_live = 'https://www.bovada.lv/services/sports/event/v2/events/A/description/
 
 url_playoffs = 'https://www.bovada.lv/services/sports/event/v2/events/A/description/basketball/nba-playoffs?marketFilterId=def&liveOnly=true&lang=en'
 
-today = datetime.date.today()
-today_string = today.strftime("%b-%d-%Y")
+# today = datetime.date.today()
+# today_string = today.strftime("%b-%d-%Y")
+
+eastern = timezone('US/Eastern')
+loc_dt = datetime.datetime.now(eastern)
+today_string = loc_dt.strftime("%b-%d-%Y")
+
 game_path = "2020_2021 Season/" + today_string
 
 if not os.path.isdir(game_path):
