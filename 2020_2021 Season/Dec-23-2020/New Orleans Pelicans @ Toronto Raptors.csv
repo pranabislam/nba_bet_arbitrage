@@ -1,2 +1,467 @@
-New Orleans Pelicans,0,-1,0,145
-Toronto Raptors,0,-1,0,-165
+0,1,2,3,4
+New Orleans Pelicans,0,-1,0,145
+Toronto Raptors,0,-1,0,-165
+New Orleans Pelicans,0,-1,0,135
+Toronto Raptors,0,-1,0,-180
+New Orleans Pelicans,0,702,1,135
+Toronto Raptors,0,702,1,-180
+New Orleans Pelicans,5,676,1,135
+Toronto Raptors,0,676,1,-180
+New Orleans Pelicans,5,652,1,135
+Toronto Raptors,0,652,1,-180
+New Orleans Pelicans,5,643,1,120
+Toronto Raptors,3,643,1,-160
+New Orleans Pelicans,5,615,1,120
+Toronto Raptors,3,615,1,-160
+New Orleans Pelicans,5,605,1,125
+Toronto Raptors,3,605,1,-165
+New Orleans Pelicans,5,592,1,125
+Toronto Raptors,3,592,1,-165
+New Orleans Pelicans,5,592,1,130
+Toronto Raptors,3,592,1,-175
+New Orleans Pelicans,7,549,1,130
+Toronto Raptors,3,549,1,-175
+New Orleans Pelicans,7,518,1,130
+Toronto Raptors,7,518,1,-175
+New Orleans Pelicans,7,509,1,130
+Toronto Raptors,7,509,1,-175
+New Orleans Pelicans,7,509,1,120
+Toronto Raptors,7,509,1,-160
+New Orleans Pelicans,7,488,1,135
+Toronto Raptors,10,488,1,-180
+New Orleans Pelicans,9,466,1,130
+Toronto Raptors,10,466,1,-175
+New Orleans Pelicans,9,441,1,140
+Toronto Raptors,12,441,1,-185
+New Orleans Pelicans,9,413,1,155
+Toronto Raptors,12,413,1,-210
+New Orleans Pelicans,9,413,1,155
+Toronto Raptors,12,413,1,-210
+New Orleans Pelicans,9,413,1,155
+Toronto Raptors,12,413,1,-210
+New Orleans Pelicans,9,413,1,155
+Toronto Raptors,12,413,1,-210
+New Orleans Pelicans,9,413,1,155
+Toronto Raptors,12,413,1,-210
+New Orleans Pelicans,9,413,1,155
+Toronto Raptors,12,413,1,-210
+New Orleans Pelicans,9,413,1,155
+Toronto Raptors,12,413,1,-210
+New Orleans Pelicans,9,413,1,155
+Toronto Raptors,12,413,1,-210
+New Orleans Pelicans,11,390,1,185
+Toronto Raptors,12,390,1,-250
+New Orleans Pelicans,11,366,1,185
+Toronto Raptors,14,366,1,-250
+New Orleans Pelicans,11,362,1,190
+Toronto Raptors,14,362,1,-260
+New Orleans Pelicans,11,362,1,190
+Toronto Raptors,15,362,1,-260
+New Orleans Pelicans,13,343,1,190
+Toronto Raptors,15,343,1,-260
+New Orleans Pelicans,13,315,1,190
+Toronto Raptors,15,315,1,-260
+New Orleans Pelicans,13,306,1,175
+Toronto Raptors,15,306,1,-240
+New Orleans Pelicans,13,306,1,185
+Toronto Raptors,15,306,1,-250
+New Orleans Pelicans,13,293,1,190
+Toronto Raptors,15,293,1,-250
+New Orleans Pelicans,13,293,1,190
+Toronto Raptors,15,293,1,-250
+New Orleans Pelicans,13,292,1,170
+Toronto Raptors,15,292,1,-230
+New Orleans Pelicans,15,268,1,180
+Toronto Raptors,15,268,1,-245
+New Orleans Pelicans,17,242,1,180
+Toronto Raptors,15,242,1,-245
+New Orleans Pelicans,17,236,1,170
+Toronto Raptors,15,236,1,-230
+New Orleans Pelicans,17,233,1,115
+Toronto Raptors,15,233,1,-155
+New Orleans Pelicans,17,216,1,125
+Toronto Raptors,17,216,1,-165
+New Orleans Pelicans,17,195,1,130
+Toronto Raptors,17,195,1,-175
+New Orleans Pelicans,17,183,1,140
+Toronto Raptors,19,183,1,-185
+New Orleans Pelicans,17,183,1,160
+Toronto Raptors,19,183,1,-215
+New Orleans Pelicans,17,183,1,160
+Toronto Raptors,19,183,1,-215
+New Orleans Pelicans,17,183,1,160
+Toronto Raptors,19,183,1,-215
+New Orleans Pelicans,17,183,1,160
+Toronto Raptors,19,183,1,-215
+New Orleans Pelicans,17,183,1,160
+Toronto Raptors,19,183,1,-215
+New Orleans Pelicans,17,183,1,160
+Toronto Raptors,19,183,1,-215
+New Orleans Pelicans,17,169,1,160
+Toronto Raptors,19,169,1,-215
+New Orleans Pelicans,17,158,1,160
+Toronto Raptors,19,158,1,-215
+New Orleans Pelicans,17,140,1,160
+Toronto Raptors,19,140,1,-215
+New Orleans Pelicans,17,140,1,170
+Toronto Raptors,20,140,1,-230
+New Orleans Pelicans,19,116,1,170
+Toronto Raptors,21,116,1,-230
+New Orleans Pelicans,19,100,1,160
+Toronto Raptors,21,100,1,-215
+New Orleans Pelicans,19,92,1,160
+Toronto Raptors,21,92,1,-215
+New Orleans Pelicans,20,75,1,150
+Toronto Raptors,21,75,1,-200
+New Orleans Pelicans,20,69,1,155
+Toronto Raptors,21,69,1,-210
+New Orleans Pelicans,22,50,1,155
+Toronto Raptors,23,50,1,-210
+New Orleans Pelicans,22,23,1,165
+Toronto Raptors,26,23,1,-220
+New Orleans Pelicans,23,22,1,165
+Toronto Raptors,26,22,1,-220
+New Orleans Pelicans,23,10,1,160
+Toronto Raptors,26,10,1,-215
+New Orleans Pelicans,23,0,1,165
+Toronto Raptors,26,0,1,-220
+New Orleans Pelicans,23,7,1,165
+Toronto Raptors,26,7,1,-220
+New Orleans Pelicans,23,720,2,165
+Toronto Raptors,26,720,2,-220
+New Orleans Pelicans,23,720,2,170
+Toronto Raptors,26,720,2,-230
+New Orleans Pelicans,23,720,2,165
+Toronto Raptors,26,720,2,-220
+New Orleans Pelicans,23,720,2,165
+Toronto Raptors,26,720,2,-220
+New Orleans Pelicans,23,720,2,200
+Toronto Raptors,26,720,2,-275
+New Orleans Pelicans,23,720,2,200
+Toronto Raptors,26,720,2,-275
+New Orleans Pelicans,23,720,2,200
+Toronto Raptors,26,720,2,-275
+New Orleans Pelicans,23,700,2,200
+Toronto Raptors,28,700,2,-275
+New Orleans Pelicans,23,677,2,200
+Toronto Raptors,28,677,2,-275
+New Orleans Pelicans,23,664,2,210
+Toronto Raptors,32,664,2,-290
+New Orleans Pelicans,23,639,2,220
+Toronto Raptors,32,639,2,-300
+New Orleans Pelicans,23,635,2,265
+Toronto Raptors,32,635,2,-380
+New Orleans Pelicans,25,621,2,265
+Toronto Raptors,32,621,2,-380
+New Orleans Pelicans,25,605,2,265
+Toronto Raptors,35,605,2,-380
+New Orleans Pelicans,25,605,2,265
+Toronto Raptors,35,605,2,-380
+New Orleans Pelicans,25,605,2,265
+Toronto Raptors,35,605,2,-380
+New Orleans Pelicans,25,605,2,265
+Toronto Raptors,32,605,2,-380
+New Orleans Pelicans,25,605,2,265
+Toronto Raptors,33,605,2,-380
+New Orleans Pelicans,25,605,2,265
+Toronto Raptors,33,605,2,-380
+New Orleans Pelicans,25,605,2,265
+Toronto Raptors,33,605,2,-380
+New Orleans Pelicans,28,593,2,265
+Toronto Raptors,33,593,2,-380
+New Orleans Pelicans,28,583,2,225
+Toronto Raptors,33,583,2,-310
+New Orleans Pelicans,28,573,2,215
+Toronto Raptors,33,573,2,-300
+New Orleans Pelicans,31,555,2,215
+Toronto Raptors,33,555,2,-300
+New Orleans Pelicans,31,544,2,190
+Toronto Raptors,33,544,2,-260
+New Orleans Pelicans,31,533,2,205
+Toronto Raptors,33,533,2,-280
+New Orleans Pelicans,31,523,2,170
+Toronto Raptors,33,523,2,-230
+New Orleans Pelicans,31,502,2,170
+Toronto Raptors,33,502,2,-230
+New Orleans Pelicans,31,482,2,170
+Toronto Raptors,36,482,2,-230
+New Orleans Pelicans,31,482,2,205
+Toronto Raptors,36,482,2,-280
+New Orleans Pelicans,31,476,2,205
+Toronto Raptors,36,476,2,-280
+New Orleans Pelicans,31,473,2,205
+Toronto Raptors,36,473,2,-280
+New Orleans Pelicans,31,456,2,205
+Toronto Raptors,39,456,2,-280
+New Orleans Pelicans,31,445,2,230
+Toronto Raptors,39,445,2,-310
+New Orleans Pelicans,34,415,2,230
+Toronto Raptors,39,415,2,-310
+New Orleans Pelicans,34,397,2,205
+Toronto Raptors,39,397,2,-280
+New Orleans Pelicans,34,397,2,205
+Toronto Raptors,39,397,2,-280
+New Orleans Pelicans,34,378,2,205
+Toronto Raptors,39,378,2,-280
+New Orleans Pelicans,34,358,2,205
+Toronto Raptors,39,358,2,-280
+New Orleans Pelicans,34,345,2,205
+Toronto Raptors,39,345,2,-280
+New Orleans Pelicans,37,317,2,190
+Toronto Raptors,39,317,2,-260
+New Orleans Pelicans,37,297,2,170
+Toronto Raptors,39,297,2,-230
+New Orleans Pelicans,37,297,2,190
+Toronto Raptors,39,297,2,-260
+New Orleans Pelicans,38,296,2,160
+Toronto Raptors,39,296,2,-215
+New Orleans Pelicans,38,281,2,160
+Toronto Raptors,39,281,2,-215
+New Orleans Pelicans,37,259,2,160
+Toronto Raptors,39,259,2,-215
+New Orleans Pelicans,38,251,2,160
+Toronto Raptors,39,251,2,-215
+New Orleans Pelicans,38,251,2,160
+Toronto Raptors,40,251,2,-215
+New Orleans Pelicans,38,251,2,160
+Toronto Raptors,43,251,2,-215
+New Orleans Pelicans,41,224,2,160
+Toronto Raptors,43,224,2,-215
+New Orleans Pelicans,41,214,2,160
+Toronto Raptors,46,214,2,-215
+New Orleans Pelicans,41,214,2,160
+Toronto Raptors,46,214,2,-215
+New Orleans Pelicans,41,214,2,160
+Toronto Raptors,46,214,2,-215
+New Orleans Pelicans,42,214,2,160
+Toronto Raptors,46,214,2,-215
+New Orleans Pelicans,42,169,2,160
+Toronto Raptors,49,169,2,-215
+New Orleans Pelicans,42,166,2,160
+Toronto Raptors,49,166,2,-215
+New Orleans Pelicans,42,166,2,160
+Toronto Raptors,49,166,2,-215
+New Orleans Pelicans,42,166,2,230
+Toronto Raptors,49,166,2,-320
+New Orleans Pelicans,42,166,2,230
+Toronto Raptors,49,166,2,-320
+New Orleans Pelicans,42,166,2,230
+Toronto Raptors,49,166,2,-320
+New Orleans Pelicans,42,166,2,230
+Toronto Raptors,49,166,2,-320
+New Orleans Pelicans,42,166,2,230
+Toronto Raptors,49,166,2,-320
+New Orleans Pelicans,44,133,2,230
+Toronto Raptors,52,133,2,-320
+New Orleans Pelicans,44,92,2,215
+Toronto Raptors,55,92,2,-300
+New Orleans Pelicans,44,66,2,295
+Toronto Raptors,55,66,2,-450
+New Orleans Pelicans,47,50,2,400
+Toronto Raptors,57,50,2,-700
+New Orleans Pelicans,50,28,2,300
+Toronto Raptors,57,28,2,-450
+New Orleans Pelicans,50,14,2,275
+Toronto Raptors,57,14,2,-380
+New Orleans Pelicans,50,600,3,250
+Toronto Raptors,57,600,3,-360
+New Orleans Pelicans,50,600,3,250
+Toronto Raptors,57,600,3,-360
+New Orleans Pelicans,50,600,3,265
+Toronto Raptors,57,600,3,-400
+New Orleans Pelicans,50,600,3,265
+Toronto Raptors,57,600,3,-400
+New Orleans Pelicans,50,600,3,265
+Toronto Raptors,57,600,3,-400
+New Orleans Pelicans,50,600,3,265
+Toronto Raptors,57,600,3,-400
+New Orleans Pelicans,50,600,3,265
+Toronto Raptors,57,600,3,-400
+New Orleans Pelicans,50,600,3,250
+Toronto Raptors,57,600,3,-360
+New Orleans Pelicans,50,600,3,250
+Toronto Raptors,57,600,3,-360
+New Orleans Pelicans,50,600,3,250
+Toronto Raptors,57,600,3,-360
+New Orleans Pelicans,50,600,3,250
+Toronto Raptors,57,600,3,-360
+New Orleans Pelicans,55,636,3,285
+Toronto Raptors,61,636,3,-425
+New Orleans Pelicans,55,611,3,250
+Toronto Raptors,61,611,3,-360
+New Orleans Pelicans,55,595,3,285
+Toronto Raptors,63,595,3,-425
+New Orleans Pelicans,56,584,3,285
+Toronto Raptors,63,584,3,-425
+New Orleans Pelicans,56,548,3,315
+Toronto Raptors,65,548,3,-475
+New Orleans Pelicans,56,534,3,385
+Toronto Raptors,67,534,3,-650
+New Orleans Pelicans,56,534,3,315
+Toronto Raptors,67,534,3,-475
+New Orleans Pelicans,56,534,3,400
+Toronto Raptors,67,534,3,-700
+New Orleans Pelicans,56,534,3,400
+Toronto Raptors,67,534,3,-700
+New Orleans Pelicans,56,534,3,400
+Toronto Raptors,67,534,3,-700
+New Orleans Pelicans,56,534,3,400
+Toronto Raptors,67,534,3,-700
+New Orleans Pelicans,58,513,3,400
+Toronto Raptors,67,513,3,-700
+New Orleans Pelicans,58,484,3,385
+Toronto Raptors,67,484,3,-650
+New Orleans Pelicans,61,464,3,385
+Toronto Raptors,67,464,3,-650
+New Orleans Pelicans,65,443,3,190
+Toronto Raptors,67,443,3,-260
+New Orleans Pelicans,65,443,3,230
+Toronto Raptors,67,443,3,-320
+New Orleans Pelicans,63,443,3,190
+Toronto Raptors,67,443,3,-260
+New Orleans Pelicans,65,443,3,190
+Toronto Raptors,67,443,3,-260
+New Orleans Pelicans,65,443,3,190
+Toronto Raptors,67,443,3,-260
+New Orleans Pelicans,63,443,3,230
+Toronto Raptors,67,443,3,-320
+New Orleans Pelicans,63,443,3,190
+Toronto Raptors,67,443,3,-260
+New Orleans Pelicans,66,443,3,170
+Toronto Raptors,69,443,3,-230
+New Orleans Pelicans,68,366,3,210
+Toronto Raptors,71,366,3,-290
+New Orleans Pelicans,71,262,3,135
+Toronto Raptors,73,262,3,-180
+New Orleans Pelicans,78,176,3,135
+Toronto Raptors,75,176,3,-180
+New Orleans Pelicans,78,147,3,-175
+Toronto Raptors,75,147,3,130
+New Orleans Pelicans,78,113,3,-180
+Toronto Raptors,77,113,3,135
+New Orleans Pelicans,79,87,3,-175
+Toronto Raptors,77,87,3,130
+New Orleans Pelicans,83,33,3,-230
+Toronto Raptors,79,33,3,170
+New Orleans Pelicans,88,720,4,-700
+Toronto Raptors,79,720,4,400
+New Orleans Pelicans,88,720,4,-450
+Toronto Raptors,79,720,4,300
+New Orleans Pelicans,88,705,4,-450
+Toronto Raptors,79,705,4,300
+New Orleans Pelicans,91,652,4,-450
+Toronto Raptors,81,652,4,315
+New Orleans Pelicans,93,614,4,-650
+Toronto Raptors,86,614,4,385
+New Orleans Pelicans,93,583,4,-290
+Toronto Raptors,88,583,4,210
+New Orleans Pelicans,96,553,4,-550
+Toronto Raptors,88,553,4,350
+New Orleans Pelicans,99,493,4,-900
+Toronto Raptors,91,493,4,475
+New Orleans Pelicans,99,466,4,-350
+Toronto Raptors,93,466,4,245
+New Orleans Pelicans,99,450,4,-350
+Toronto Raptors,93,450,4,245
+New Orleans Pelicans,99,450,4,-350
+Toronto Raptors,93,450,4,245
+New Orleans Pelicans,99,450,4,-350
+Toronto Raptors,93,450,4,245
+New Orleans Pelicans,100,439,4,-360
+Toronto Raptors,93,439,4,250
+New Orleans Pelicans,100,427,4,-475
+Toronto Raptors,93,427,4,320
+New Orleans Pelicans,100,409,4,-475
+Toronto Raptors,93,409,4,320
+New Orleans Pelicans,100,409,4,-475
+Toronto Raptors,93,409,4,320
+New Orleans Pelicans,100,409,4,-475
+Toronto Raptors,93,409,4,320
+New Orleans Pelicans,100,409,4,-475
+Toronto Raptors,93,409,4,320
+New Orleans Pelicans,100,409,4,-475
+Toronto Raptors,93,409,4,320
+New Orleans Pelicans,100,409,4,-475
+Toronto Raptors,93,409,4,320
+New Orleans Pelicans,100,409,4,-475
+Toronto Raptors,93,409,4,320
+New Orleans Pelicans,100,409,4,-475
+Toronto Raptors,93,409,4,320
+New Orleans Pelicans,100,398,4,-475
+Toronto Raptors,93,398,4,320
+New Orleans Pelicans,102,370,4,-475
+Toronto Raptors,93,370,4,320
+New Orleans Pelicans,102,346,4,-380
+Toronto Raptors,93,346,4,265
+New Orleans Pelicans,104,316,4,-900
+Toronto Raptors,93,316,4,500
+New Orleans Pelicans,107,301,4,-20000
+Toronto Raptors,93,301,4,1300
+New Orleans Pelicans,107,301,4,-20000
+Toronto Raptors,93,301,4,1600
+New Orleans Pelicans,107,301,4,-20000
+Toronto Raptors,93,301,4,1600
+New Orleans Pelicans,107,301,4,-20000
+Toronto Raptors,93,301,4,1900
+New Orleans Pelicans,107,301,4,-20000
+Toronto Raptors,93,301,4,1900
+New Orleans Pelicans,107,301,4,-20000
+Toronto Raptors,93,301,4,1900
+New Orleans Pelicans,107,291,4,-20000
+Toronto Raptors,93,291,4,1900
+New Orleans Pelicans,107,279,4,-20000
+Toronto Raptors,93,279,4,1900
+New Orleans Pelicans,107,266,4,-20000
+Toronto Raptors,93,266,4,2100
+New Orleans Pelicans,107,235,4,-20000
+Toronto Raptors,93,235,4,1900
+New Orleans Pelicans,107,214,4,-20000
+Toronto Raptors,96,214,4,1900
+New Orleans Pelicans,109,187,4,-20000
+Toronto Raptors,96,187,4,1900
+New Orleans Pelicans,109,163,4,-20000
+Toronto Raptors,96,163,4,1600
+New Orleans Pelicans,109,156,4,-20000
+Toronto Raptors,96,156,4,1600
+New Orleans Pelicans,109,139,4,-20000
+Toronto Raptors,96,139,4,1600
+New Orleans Pelicans,109,133,4,-20000
+Toronto Raptors,96,133,4,1600
+New Orleans Pelicans,109,125,4,-20000
+Toronto Raptors,96,125,4,1600
+New Orleans Pelicans,109,125,4,-20000
+Toronto Raptors,96,125,4,1600
+New Orleans Pelicans,109,109,4,-20000
+Toronto Raptors,97,109,4,1600
+New Orleans Pelicans,109,87,4,-20000
+Toronto Raptors,97,87,4,1600
+New Orleans Pelicans,109,77,4,-20000
+Toronto Raptors,97,77,4,1600
+New Orleans Pelicans,112,71,4,-20000
+Toronto Raptors,97,71,4,1600
+New Orleans Pelicans,112,71,4,-20000
+Toronto Raptors,97,71,4,1600
+New Orleans Pelicans,112,71,4,-20000
+Toronto Raptors,97,71,4,1600
+New Orleans Pelicans,112,71,4,-20000
+Toronto Raptors,97,71,4,1600
+New Orleans Pelicans,112,71,4,-20000
+Toronto Raptors,97,71,4,1600
+New Orleans Pelicans,112,71,4,-20000
+Toronto Raptors,97,71,4,1600
+New Orleans Pelicans,113,56,4,-20000
+Toronto Raptors,97,56,4,1600
+New Orleans Pelicans,113,47,4,-20000
+Toronto Raptors,97,47,4,1600
+New Orleans Pelicans,113,29,4,-20000
+Toronto Raptors,99,29,4,1600
+New Orleans Pelicans,113,20,4,-20000
+Toronto Raptors,99,20,4,1600
+New Orleans Pelicans,113,0,4,-20000
+Toronto Raptors,99,0,4,1600
+New Orleans Pelicans,113,0,4,-20000
+Toronto Raptors,99,0,4,1600
+New Orleans Pelicans,113,0,4,-20000
+Toronto Raptors,99,0,4,1600
+New Orleans Pelicans,113,0,0,-20000
+Toronto Raptors,99,0,0,1600

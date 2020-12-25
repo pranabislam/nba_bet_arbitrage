@@ -1,2 +1,403 @@
-San Antonio Spurs,0,-1,0,110
-Memphis Grizzlies,0,-1,0,-130
+0,1,2,3,4
+San Antonio Spurs,0,-1,0,110
+Memphis Grizzlies,0,-1,0,-130
+San Antonio Spurs,0,706,1,110
+Memphis Grizzlies,1,706,1,-145
+San Antonio Spurs,0,695,1,110
+Memphis Grizzlies,1,695,1,-145
+San Antonio Spurs,0,673,1,110
+Memphis Grizzlies,1,673,1,-150
+San Antonio Spurs,3,651,1,110
+Memphis Grizzlies,4,651,1,-150
+San Antonio Spurs,3,627,1,100
+Memphis Grizzlies,6,627,1,-130
+San Antonio Spurs,6,607,1,110
+Memphis Grizzlies,6,607,1,-150
+San Antonio Spurs,6,602,1,115
+Memphis Grizzlies,9,602,1,-155
+San Antonio Spurs,6,591,1,115
+Memphis Grizzlies,11,591,1,-155
+San Antonio Spurs,6,566,1,135
+Memphis Grizzlies,14,566,1,-180
+San Antonio Spurs,6,539,1,135
+Memphis Grizzlies,14,539,1,-180
+San Antonio Spurs,6,531,1,160
+Memphis Grizzlies,14,531,1,-215
+San Antonio Spurs,8,531,1,150
+Memphis Grizzlies,14,531,1,-200
+San Antonio Spurs,8,505,1,155
+Memphis Grizzlies,14,505,1,-210
+San Antonio Spurs,8,489,1,150
+Memphis Grizzlies,17,489,1,-200
+San Antonio Spurs,8,489,1,180
+Memphis Grizzlies,17,489,1,-245
+San Antonio Spurs,8,489,1,180
+Memphis Grizzlies,17,489,1,-245
+San Antonio Spurs,8,489,1,180
+Memphis Grizzlies,17,489,1,-245
+San Antonio Spurs,8,489,1,180
+Memphis Grizzlies,17,489,1,-245
+San Antonio Spurs,8,489,1,180
+Memphis Grizzlies,17,489,1,-245
+San Antonio Spurs,8,489,1,180
+Memphis Grizzlies,17,489,1,-245
+San Antonio Spurs,8,480,1,180
+Memphis Grizzlies,17,480,1,-245
+San Antonio Spurs,10,475,1,165
+Memphis Grizzlies,17,475,1,-220
+San Antonio Spurs,12,449,1,165
+Memphis Grizzlies,19,449,1,-220
+San Antonio Spurs,12,425,1,165
+Memphis Grizzlies,22,425,1,-220
+San Antonio Spurs,14,402,1,200
+Memphis Grizzlies,22,402,1,-275
+San Antonio Spurs,14,394,1,175
+Memphis Grizzlies,22,394,1,-240
+San Antonio Spurs,15,383,1,175
+Memphis Grizzlies,22,383,1,-240
+San Antonio Spurs,15,355,1,170
+Memphis Grizzlies,24,355,1,-240
+San Antonio Spurs,17,332,1,185
+Memphis Grizzlies,24,332,1,-250
+San Antonio Spurs,17,306,1,185
+Memphis Grizzlies,26,306,1,-250
+San Antonio Spurs,17,280,1,190
+Memphis Grizzlies,26,280,1,-260
+San Antonio Spurs,17,279,1,195
+Memphis Grizzlies,26,279,1,-275
+San Antonio Spurs,18,279,1,195
+Memphis Grizzlies,26,279,1,-275
+San Antonio Spurs,19,271,1,170
+Memphis Grizzlies,26,271,1,-230
+San Antonio Spurs,19,260,1,165
+Memphis Grizzlies,26,260,1,-220
+San Antonio Spurs,20,260,1,160
+Memphis Grizzlies,26,260,1,-215
+San Antonio Spurs,20,260,1,150
+Memphis Grizzlies,26,260,1,-200
+San Antonio Spurs,20,260,1,155
+Memphis Grizzlies,26,260,1,-210
+San Antonio Spurs,20,260,1,150
+Memphis Grizzlies,26,260,1,-200
+San Antonio Spurs,20,260,1,160
+Memphis Grizzlies,26,260,1,-215
+San Antonio Spurs,20,260,1,160
+Memphis Grizzlies,26,260,1,-215
+San Antonio Spurs,20,260,1,160
+Memphis Grizzlies,26,260,1,-215
+San Antonio Spurs,20,260,1,160
+Memphis Grizzlies,26,260,1,-215
+San Antonio Spurs,21,243,1,160
+Memphis Grizzlies,28,243,1,-215
+San Antonio Spurs,21,225,1,160
+Memphis Grizzlies,28,225,1,-215
+San Antonio Spurs,23,206,1,175
+Memphis Grizzlies,28,206,1,-230
+San Antonio Spurs,23,184,1,165
+Memphis Grizzlies,28,184,1,-220
+San Antonio Spurs,25,160,1,150
+Memphis Grizzlies,30,160,1,-200
+San Antonio Spurs,25,140,1,165
+Memphis Grizzlies,30,140,1,-220
+San Antonio Spurs,27,97,1,160
+Memphis Grizzlies,33,97,1,-215
+San Antonio Spurs,27,75,1,175
+Memphis Grizzlies,33,75,1,-240
+San Antonio Spurs,27,68,1,155
+Memphis Grizzlies,33,68,1,-210
+San Antonio Spurs,30,41,1,185
+Memphis Grizzlies,33,41,1,-250
+San Antonio Spurs,30,13,1,185
+Memphis Grizzlies,33,13,1,-250
+San Antonio Spurs,30,0,1,155
+Memphis Grizzlies,33,0,1,-210
+San Antonio Spurs,30,720,2,160
+Memphis Grizzlies,33,720,2,-215
+San Antonio Spurs,30,720,2,160
+Memphis Grizzlies,33,720,2,-215
+San Antonio Spurs,30,720,2,145
+Memphis Grizzlies,33,720,2,-190
+San Antonio Spurs,30,720,2,145
+Memphis Grizzlies,33,720,2,-190
+San Antonio Spurs,30,720,2,145
+Memphis Grizzlies,33,720,2,-190
+San Antonio Spurs,33,688,2,145
+Memphis Grizzlies,35,688,2,-190
+San Antonio Spurs,35,666,2,120
+Memphis Grizzlies,35,666,2,-160
+San Antonio Spurs,37,639,2,120
+Memphis Grizzlies,35,639,2,-160
+San Antonio Spurs,37,611,2,120
+Memphis Grizzlies,38,611,2,-160
+San Antonio Spurs,39,577,2,120
+Memphis Grizzlies,41,577,2,-160
+San Antonio Spurs,42,558,2,115
+Memphis Grizzlies,41,558,2,-155
+San Antonio Spurs,42,539,2,130
+Memphis Grizzlies,41,539,2,-175
+San Antonio Spurs,42,513,2,115
+Memphis Grizzlies,41,513,2,-155
+San Antonio Spurs,44,493,2,110
+Memphis Grizzlies,41,493,2,-145
+San Antonio Spurs,44,493,2,110
+Memphis Grizzlies,41,493,2,-145
+San Antonio Spurs,44,493,2,100
+Memphis Grizzlies,41,493,2,-130
+San Antonio Spurs,44,493,2,100
+Memphis Grizzlies,41,493,2,-130
+San Antonio Spurs,44,493,2,100
+Memphis Grizzlies,41,493,2,-130
+San Antonio Spurs,44,493,2,100
+Memphis Grizzlies,41,493,2,-130
+San Antonio Spurs,59,185,2,-360
+Memphis Grizzlies,47,185,2,250
+San Antonio Spurs,59,165,2,-360
+Memphis Grizzlies,47,165,2,250
+San Antonio Spurs,59,142,2,-400
+Memphis Grizzlies,47,142,2,275
+San Antonio Spurs,61,106,2,-370
+Memphis Grizzlies,47,106,2,260
+San Antonio Spurs,61,99,2,-650
+Memphis Grizzlies,47,99,2,385
+San Antonio Spurs,61,86,2,-650
+Memphis Grizzlies,47,86,2,385
+San Antonio Spurs,61,67,2,-650
+Memphis Grizzlies,50,67,2,385
+San Antonio Spurs,61,67,2,-700
+Memphis Grizzlies,50,67,2,400
+San Antonio Spurs,61,67,2,-380
+Memphis Grizzlies,50,67,2,265
+San Antonio Spurs,61,62,2,-380
+Memphis Grizzlies,50,62,2,265
+San Antonio Spurs,62,57,2,-450
+Memphis Grizzlies,50,57,2,300
+San Antonio Spurs,62,34,2,-450
+Memphis Grizzlies,50,34,2,315
+San Antonio Spurs,64,5,2,-475
+Memphis Grizzlies,53,5,2,320
+San Antonio Spurs,66,600,3,-450
+Memphis Grizzlies,53,600,3,295
+San Antonio Spurs,66,600,3,-650
+Memphis Grizzlies,53,600,3,385
+San Antonio Spurs,66,600,3,-650
+Memphis Grizzlies,53,600,3,385
+San Antonio Spurs,66,600,3,-650
+Memphis Grizzlies,53,600,3,385
+San Antonio Spurs,66,600,3,-650
+Memphis Grizzlies,53,600,3,385
+San Antonio Spurs,66,600,3,-650
+Memphis Grizzlies,53,600,3,385
+San Antonio Spurs,66,600,3,-650
+Memphis Grizzlies,53,600,3,385
+San Antonio Spurs,76,497,3,-450
+Memphis Grizzlies,65,497,3,315
+San Antonio Spurs,78,492,3,-700
+Memphis Grizzlies,65,492,3,400
+San Antonio Spurs,78,492,3,-700
+Memphis Grizzlies,65,492,3,400
+San Antonio Spurs,78,492,3,-700
+Memphis Grizzlies,65,492,3,400
+San Antonio Spurs,78,492,3,-700
+Memphis Grizzlies,65,492,3,400
+San Antonio Spurs,78,492,3,-700
+Memphis Grizzlies,65,492,3,400
+San Antonio Spurs,78,492,3,-700
+Memphis Grizzlies,65,492,3,400
+San Antonio Spurs,78,489,3,-700
+Memphis Grizzlies,65,489,3,400
+San Antonio Spurs,78,463,3,-700
+Memphis Grizzlies,65,463,3,400
+San Antonio Spurs,78,450,3,-425
+Memphis Grizzlies,68,450,3,285
+San Antonio Spurs,78,429,3,-425
+Memphis Grizzlies,68,429,3,285
+San Antonio Spurs,78,415,3,-425
+Memphis Grizzlies,68,415,3,285
+San Antonio Spurs,78,386,3,-425
+Memphis Grizzlies,70,386,3,285
+San Antonio Spurs,82,368,3,-360
+Memphis Grizzlies,70,368,3,250
+San Antonio Spurs,83,368,3,-700
+Memphis Grizzlies,70,368,3,400
+San Antonio Spurs,83,358,3,-700
+Memphis Grizzlies,70,358,3,400
+San Antonio Spurs,83,345,3,-800
+Memphis Grizzlies,71,345,3,450
+San Antonio Spurs,85,319,3,-800
+Memphis Grizzlies,73,319,3,425
+San Antonio Spurs,85,296,3,-950
+Memphis Grizzlies,75,296,3,525
+San Antonio Spurs,85,269,3,-700
+Memphis Grizzlies,77,269,3,400
+San Antonio Spurs,87,254,3,-370
+Memphis Grizzlies,77,254,3,260
+San Antonio Spurs,88,250,3,-475
+Memphis Grizzlies,77,250,3,320
+San Antonio Spurs,88,234,3,-700
+Memphis Grizzlies,77,234,3,400
+San Antonio Spurs,89,234,3,-700
+Memphis Grizzlies,77,234,3,400
+San Antonio Spurs,90,216,3,-800
+Memphis Grizzlies,79,216,3,475
+San Antonio Spurs,90,188,3,-750
+Memphis Grizzlies,79,188,3,425
+San Antonio Spurs,90,166,3,-750
+Memphis Grizzlies,79,166,3,425
+San Antonio Spurs,92,128,3,-550
+Memphis Grizzlies,81,128,3,350
+San Antonio Spurs,94,113,3,-700
+Memphis Grizzlies,81,113,3,400
+San Antonio Spurs,94,113,3,-700
+Memphis Grizzlies,82,113,3,400
+San Antonio Spurs,94,94,3,-950
+Memphis Grizzlies,82,94,3,525
+San Antonio Spurs,95,94,3,-1100
+Memphis Grizzlies,82,94,3,575
+San Antonio Spurs,95,83,3,-1100
+Memphis Grizzlies,82,83,3,550
+San Antonio Spurs,95,60,3,-1100
+Memphis Grizzlies,84,60,3,600
+San Antonio Spurs,95,44,3,-900
+Memphis Grizzlies,84,44,3,500
+San Antonio Spurs,96,44,3,-900
+Memphis Grizzlies,84,44,3,500
+San Antonio Spurs,97,45,3,-1400
+Memphis Grizzlies,84,45,3,625
+San Antonio Spurs,97,35,3,-1100
+Memphis Grizzlies,84,35,3,575
+San Antonio Spurs,97,35,3,-1400
+Memphis Grizzlies,86,35,3,625
+San Antonio Spurs,99,1,3,-900
+Memphis Grizzlies,88,1,3,500
+San Antonio Spurs,99,720,4,-1400
+Memphis Grizzlies,88,720,4,675
+San Antonio Spurs,99,720,4,-900
+Memphis Grizzlies,88,720,4,475
+San Antonio Spurs,99,720,4,-900
+Memphis Grizzlies,88,720,4,475
+San Antonio Spurs,99,720,4,-900
+Memphis Grizzlies,88,720,4,475
+San Antonio Spurs,99,720,4,-900
+Memphis Grizzlies,88,720,4,475
+San Antonio Spurs,99,720,4,-900
+Memphis Grizzlies,88,720,4,475
+San Antonio Spurs,99,720,4,-900
+Memphis Grizzlies,88,720,4,475
+San Antonio Spurs,99,702,4,-900
+Memphis Grizzlies,88,702,4,475
+San Antonio Spurs,99,691,4,-900
+Memphis Grizzlies,88,691,4,475
+San Antonio Spurs,99,662,4,-900
+Memphis Grizzlies,88,662,4,525
+San Antonio Spurs,101,644,4,-900
+Memphis Grizzlies,88,644,4,500
+San Antonio Spurs,101,629,4,-2000
+Memphis Grizzlies,90,629,4,800
+San Antonio Spurs,101,603,4,-1400
+Memphis Grizzlies,90,603,4,625
+San Antonio Spurs,101,553,4,-1400
+Memphis Grizzlies,90,553,4,625
+San Antonio Spurs,101,509,4,-1400
+Memphis Grizzlies,90,509,4,625
+San Antonio Spurs,101,488,4,-1400
+Memphis Grizzlies,90,488,4,625
+San Antonio Spurs,101,488,4,-1400
+Memphis Grizzlies,92,488,4,625
+San Antonio Spurs,101,439,4,-1400
+Memphis Grizzlies,92,439,4,625
+San Antonio Spurs,101,578,4,-1400
+Memphis Grizzlies,92,578,4,625
+San Antonio Spurs,101,578,4,-1400
+Memphis Grizzlies,92,578,4,625
+San Antonio Spurs,101,578,4,-1400
+Memphis Grizzlies,92,578,4,625
+San Antonio Spurs,101,578,4,-800
+Memphis Grizzlies,92,578,4,450
+San Antonio Spurs,101,576,4,-800
+Memphis Grizzlies,92,576,4,450
+San Antonio Spurs,101,720,4,-800
+Memphis Grizzlies,92,720,4,450
+San Antonio Spurs,103,720,4,-800
+Memphis Grizzlies,94,720,4,450
+San Antonio Spurs,103,720,4,-800
+Memphis Grizzlies,94,720,4,450
+San Antonio Spurs,106,483,4,-800
+Memphis Grizzlies,94,483,4,450
+San Antonio Spurs,106,483,4,-800
+Memphis Grizzlies,94,483,4,450
+San Antonio Spurs,106,456,4,-800
+Memphis Grizzlies,94,456,4,450
+San Antonio Spurs,107,456,4,-800
+Memphis Grizzlies,94,456,4,450
+San Antonio Spurs,107,456,4,-800
+Memphis Grizzlies,96,456,4,450
+San Antonio Spurs,109,456,4,-800
+Memphis Grizzlies,96,456,4,450
+San Antonio Spurs,109,451,4,-800
+Memphis Grizzlies,96,451,4,450
+San Antonio Spurs,110,445,4,-800
+Memphis Grizzlies,96,445,4,450
+San Antonio Spurs,110,445,4,-800
+Memphis Grizzlies,96,445,4,450
+San Antonio Spurs,110,445,4,-800
+Memphis Grizzlies,98,445,4,450
+San Antonio Spurs,110,445,4,-800
+Memphis Grizzlies,98,445,4,450
+San Antonio Spurs,110,445,4,-800
+Memphis Grizzlies,99,445,4,450
+San Antonio Spurs,112,445,4,-800
+Memphis Grizzlies,99,445,4,450
+San Antonio Spurs,112,445,4,-800
+Memphis Grizzlies,99,445,4,450
+San Antonio Spurs,112,445,4,-800
+Memphis Grizzlies,101,445,4,450
+San Antonio Spurs,114,445,4,-800
+Memphis Grizzlies,101,445,4,450
+San Antonio Spurs,117,445,4,-800
+Memphis Grizzlies,101,445,4,450
+San Antonio Spurs,117,445,4,-800
+Memphis Grizzlies,101,445,4,450
+San Antonio Spurs,117,291,4,-800
+Memphis Grizzlies,101,291,4,450
+San Antonio Spurs,117,291,4,-800
+Memphis Grizzlies,101,291,4,450
+San Antonio Spurs,117,291,4,-800
+Memphis Grizzlies,101,291,4,450
+San Antonio Spurs,117,291,4,-800
+Memphis Grizzlies,101,291,4,450
+San Antonio Spurs,117,288,4,-800
+Memphis Grizzlies,101,288,4,450
+San Antonio Spurs,117,274,4,-800
+Memphis Grizzlies,103,274,4,450
+San Antonio Spurs,120,235,4,-800
+Memphis Grizzlies,105,235,4,450
+San Antonio Spurs,123,211,4,-800
+Memphis Grizzlies,107,211,4,450
+San Antonio Spurs,123,182,4,-800
+Memphis Grizzlies,109,182,4,450
+San Antonio Spurs,123,166,4,-800
+Memphis Grizzlies,109,166,4,450
+San Antonio Spurs,123,166,4,-800
+Memphis Grizzlies,109,166,4,450
+San Antonio Spurs,125,114,4,-800
+Memphis Grizzlies,113,114,4,450
+San Antonio Spurs,125,114,4,-800
+Memphis Grizzlies,113,114,4,450
+San Antonio Spurs,125,91,4,-800
+Memphis Grizzlies,115,91,4,450
+San Antonio Spurs,125,91,4,-800
+Memphis Grizzlies,115,91,4,450
+San Antonio Spurs,125,91,4,-800
+Memphis Grizzlies,115,91,4,1900
+San Antonio Spurs,125,73,4,-800
+Memphis Grizzlies,115,73,4,1900
+San Antonio Spurs,129,44,4,-800
+Memphis Grizzlies,117,44,4,1900
+San Antonio Spurs,131,20,4,-800
+Memphis Grizzlies,117,20,4,1900
+San Antonio Spurs,131,0,4,-800
+Memphis Grizzlies,119,0,4,1900
+San Antonio Spurs,131,0,4,-800
+Memphis Grizzlies,119,0,4,1900
+San Antonio Spurs,131,0,0,-800
+Memphis Grizzlies,119,0,0,1900
