@@ -21,12 +21,10 @@ eastern = timezone('US/Eastern')
 loc_dt = datetime.datetime.now(eastern)
 today_string = loc_dt.strftime("%b-%d-%Y")
 
-today = datetime.date.today()
-today_string2 = today.strftime("%b-%d-%Y")
+#today = datetime.date.today()
+#today_string2 = today.strftime("%b-%d-%Y")
 game_path = "2020_2021 Season/" + today_string
 
-print(today_string, "eastern")
-print(today_string2, "localized")
 
 if not os.path.isdir(game_path):
     os.mkdir(path=game_path)
@@ -182,5 +180,5 @@ def run(url):
             run(url)
 #%%
 ## Geting pregame data for a later merge when ran live
-#pregame = requests.get(url_pre).json()
-#get_stats(pregame[0])
+pregame = requests.get(url_pre).json()
+get_stats(pregame[0])
