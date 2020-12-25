@@ -7,6 +7,7 @@ import time
 import datetime
 import os
 import sys
+from pytz import timezone
 #sys.path.append('../NYU Files/Classwork/2020.09.01 - CS Class Review/CS122/1_FINAL PROJECT GITHUB/CSMC122_Basketball_Analytics')
 from bs4 import BeautifulSoup
 
@@ -16,9 +17,16 @@ url_live = 'https://www.bovada.lv/services/sports/event/v2/events/A/description/
 
 url_playoffs = 'https://www.bovada.lv/services/sports/event/v2/events/A/description/basketball/nba-playoffs?marketFilterId=def&liveOnly=true&lang=en'
 
+eastern = timezone('US/Eastern')
+loc_dt = datetime.datetime.now(eastern)
+today_string = loc_dt.strftime("%b-%d-%Y")
+
 today = datetime.date.today()
-today_string = today.strftime("%b-%d-%Y")
+today_string2 = today.strftime("%b-%d-%Y")
 game_path = "2020_2021 Season/" + today_string
+
+print(today_string, "eastern")
+print(today_string2, "localized")
 
 if not os.path.isdir(game_path):
     os.mkdir(path=game_path)
@@ -174,5 +182,5 @@ def run(url):
             run(url)
 #%%
 ## Geting pregame data for a later merge when ran live
-pregame = requests.get(url_pre).json()
-get_stats(pregame[0])
+#pregame = requests.get(url_pre).json()
+#get_stats(pregame[0])
