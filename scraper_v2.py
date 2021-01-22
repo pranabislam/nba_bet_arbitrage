@@ -8,10 +8,8 @@ import datetime
 import os
 import sys
 from pytz import timezone
-#sys.path.append('../NYU Files/Classwork/2020.09.01 - CS Class Review/CS122/1_FINAL PROJECT GITHUB/CSMC122_Basketball_Analytics')
 from bs4 import BeautifulSoup
 
-#sys.path.append('/home/student/CSMC122_Basketball_Analytics/crossover/analytics')
 url_pre = 'https://www.bovada.lv/services/sports/event/v2/events/A/description/basketball/nba?marketFilterId=def&preMatchOnly=true&lang=en'
 url_live = 'https://www.bovada.lv/services/sports/event/v2/events/A/description/basketball/nba?marketFilterId=def&liveOnly=true&lang=en'
 
@@ -21,8 +19,6 @@ eastern = timezone('US/Eastern')
 loc_dt = datetime.datetime.now(eastern)
 today_string = loc_dt.strftime("%b-%d-%Y")
 
-#today = datetime.date.today()
-#today_string2 = today.strftime("%b-%d-%Y")
 game_path = "2020_2021 Season/" + today_string
 
 
@@ -83,17 +79,21 @@ def get_stats(data):
 
                     counter += 1                
 
-                ml_away_odds = csv_line[0][-1] ## gotta change this one obviously
-                ml_home_odds = csv_line[1][-1] ## gotta change this one too
-
-                outcomes2 = events[1]['displayGroups'][0]['markets'][0]['outcomes']
+                ml_away_odds = csv_line[0][-1]
+                ml_home_odds = csv_line[1][-1]
 
                 away_spread = event['displayGroups'][0]['markets'][0]['outcomes'][0]['price']['handicap']
                 away_spread_line = event['displayGroups'][0]['markets'][0]['outcomes'][0]['price']['american']
+                away_ind = event['displayGroups'][0]['markets'][0]['outcomes'][0]['type']
+                
                 home_spread = event['displayGroups'][0]['markets'][0]['outcomes'][1]['price']['handicap']
                 home_spread_line = event['displayGroups'][0]['markets'][0]['outcomes'][1]['price']['american']
-                away_ind = event['displayGroups'][0]['markets'][0]['outcomes'][0]['type']
                 home_ind = event['displayGroups'][0]['markets'][0]['outcomes'][1]['type']
+
+                if away_spread_line == 'EVEN':
+                    away_spread_line = 100
+                if home_spread_line == 'EVEN':
+                    home_spread_line = 100
 
                 csv_line[0].extend([away_spread_line, away_spread, away_ind])
                 csv_line[1].extend([home_spread_line, home_spread, home_ind])
@@ -102,11 +102,11 @@ def get_stats(data):
                 print([ml_away_odds, away_spread], [ml_home_odds, home_spread])
 
                 name = str(event['description']) + ".csv"
-                write_csv(csv_line[0], name, game_path) ## REMEMBER DEFINE GAMEPATH EALIER
-                write_csv(csv_line[1], name, game_path) ## REMEMBER DEFINE GAMEPATH EALIER
+                write_csv(csv_line[0], name, game_path) 
+                write_csv(csv_line[1], name, game_path)
             
             except:
-                print("Moneyline for {} is unavailable right now \n".format(str(event['description'])))
+                print("Moneyline or spread for {} is unavailable right now \n".format(str(event['description'])))
                 continue
 
     return csv_line
