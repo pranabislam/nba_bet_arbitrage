@@ -60,6 +60,7 @@ def get_stats(data):
             except KeyError:
                 print("No event id found in dict; key error with get_time_score")
                 print("Event_id: ", event_id)
+                print()
                 continue
             
             csv_line = [[away_team, score[1], current_time, periodNumber], [home_team, score[0], current_time, periodNumber]]
