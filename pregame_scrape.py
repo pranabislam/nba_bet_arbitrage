@@ -8,10 +8,8 @@ import datetime
 import os
 import sys
 from pytz import timezone
-#sys.path.append('../NYU Files/Classwork/2020.09.01 - CS Class Review/CS122/1_FINAL PROJECT GITHUB/CSMC122_Basketball_Analytics')
 from bs4 import BeautifulSoup
 
-#sys.path.append('/home/student/CSMC122_Basketball_Analytics/crossover/analytics')
 url_pre = 'https://www.bovada.lv/services/sports/event/v2/events/A/description/basketball/nba?marketFilterId=def&preMatchOnly=true&lang=en'
 url_live = 'https://www.bovada.lv/services/sports/event/v2/events/A/description/basketball/nba?marketFilterId=def&liveOnly=true&lang=en'
 
@@ -21,8 +19,6 @@ eastern = timezone('US/Eastern')
 loc_dt = datetime.datetime.now(eastern)
 today_string = loc_dt.strftime("%b-%d-%Y")
 
-#today = datetime.date.today()
-#today_string2 = today.strftime("%b-%d-%Y")
 game_path = "2020_2021 Season/" + today_string
 
 
@@ -56,41 +52,68 @@ def get_stats(data):
             away_team = event['competitors'][1]['name']
             print('home team, away team under: \n')
             print(home_team, away_team)
+            
 
-            event_id = event['id']
-            current_time, periodNumber, score = get_time_score(event_id)
+            try:
+                event_id = event['id']
+                current_time, periodNumber, score = get_time_score(event_id)
+            except KeyError:
+                print("No event id found in dict; key error with get_time_score")
+                print("Event_id: ", event_id)
+                continue
             
             csv_line = [[away_team, score[1], current_time, periodNumber], [home_team, score[0], current_time, periodNumber]]
             
             counter = 0
+            
             #pprint.pprint(str(event['description']))
 
             ## 2020 testing 
             ## print(event['displayGroups'][0]['markets'])
             ## looks like for pre games the money line is not there yet for the games that are farther out
-            money_line = event['displayGroups'][0]['markets'][1]['outcomes']
-            for element in money_line:
-                prices = element['price']
+            try:
+                money_line = event['displayGroups'][0]['markets'][1]['outcomes']
+                for element in money_line:
+                    prices = element['price']
 
-                if prices['american'] == 'EVEN':
-                    current_odds = 100
-                else:
-                    current_odds = int(prices['american'])
+                    if prices['american'] == 'EVEN':
+                        current_odds = 100
+                    else:
+                        current_odds = int(prices['american'])
 
+                    csv_line[counter % 2].append(current_odds)
 
-                csv_line[counter % 2].append(current_odds)
+                    counter += 1                
 
-                counter += 1
+                ml_away_odds = csv_line[0][-1]
+                ml_home_odds = csv_line[1][-1]
+
+                away_spread = event['displayGroups'][0]['markets'][0]['outcomes'][0]['price']['handicap']
+                away_spread_line = event['displayGroups'][0]['markets'][0]['outcomes'][0]['price']['american']
+                away_ind = event['displayGroups'][0]['markets'][0]['outcomes'][0]['type']
+                
+                home_spread = event['displayGroups'][0]['markets'][0]['outcomes'][1]['price']['handicap']
+                home_spread_line = event['displayGroups'][0]['markets'][0]['outcomes'][1]['price']['american']
+                home_ind = event['displayGroups'][0]['markets'][0]['outcomes'][1]['type']
+
+                if away_spread_line == 'EVEN':
+                    away_spread_line = 100
+                if home_spread_line == 'EVEN':
+                    home_spread_line = 100
+
+                csv_line[0].extend([away_spread_line, away_spread, away_ind])
+                csv_line[1].extend([home_spread_line, home_spread, home_ind])
+
+                print('Here are current away and home [ML, spread]  in order: \n')
+                print([ml_away_odds, away_spread], [ml_home_odds, home_spread])
+
+                name = str(event['description']) + ".csv"
+                write_csv(csv_line[0], name, game_path) 
+                write_csv(csv_line[1], name, game_path)
             
-
-            away_odds = csv_line[0][-1]
-            home_odds = csv_line[1][-1]
-            print('Here are current away and home odds in order: \n')
-            print(away_odds, home_odds)
-
-            name = str(event['description']) + ".csv"
-            write_csv(csv_line[0], name, game_path) ## REMEMBER DEFINE GAMEPATH EALIER
-            write_csv(csv_line[1], name, game_path) ## REMEMBER DEFINE GAMEPATH EALIER
+            except:
+                print("Moneyline or spread for {} is unavailable right now \n".format(str(event['description'])))
+                continue
 
     return csv_line
 
@@ -182,3 +205,5 @@ def run(url):
 ## Geting pregame data for a later merge when ran live
 pregame = requests.get(url_pre).json()
 get_stats(pregame[0])
+
+# %%

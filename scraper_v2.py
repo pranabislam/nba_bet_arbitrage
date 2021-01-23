@@ -52,9 +52,15 @@ def get_stats(data):
             away_team = event['competitors'][1]['name']
             print('home team, away team under: \n')
             print(home_team, away_team)
+            
 
-            event_id = event['id']
-            current_time, periodNumber, score = get_time_score(event_id)
+            try:
+                event_id = event['id']
+                current_time, periodNumber, score = get_time_score(event_id)
+            except KeyError:
+                print("No event id found in dict; key error with get_time_score")
+                print("Event_id: ", event_id)
+                continue
             
             csv_line = [[away_team, score[1], current_time, periodNumber], [home_team, score[0], current_time, periodNumber]]
             
