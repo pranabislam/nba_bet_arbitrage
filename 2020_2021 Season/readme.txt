@@ -5,3 +5,6 @@ when i do analysis on the files, make sure to remove all csv files with less tha
 but werent caught by the live scraper that day. (also represents faulty games where we lost data i guess)
 
 Note make sure to review these files and then to also make sure the formats line up for later dates once the scraping methodology is standardized
+
+________________________________
+starting in mid-late january, we started scraping spreads as well
